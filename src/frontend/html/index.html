@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, user-scable=0"/>
+    <link rel="stylesheet" type = "text/css" href="../css/style.css" />
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector(".menu_mobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex'){
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                }
+                else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }          
+            });
+        };
+    </script>
+    <title> MediCenter </title>
+</head>
+<body>
+    <!-- cabeçalho do site -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href=""><img src="../../../assets/images/medicine.png"/></a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <div class="menu_mobile">
+                        <div class="menu_mobile_line"></div>
+                        <div class="menu_mobile_line"></div>
+                        <div class="menu_mobile_line"></div>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="">HOME</a></li>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">HOME</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+            
+        </div>
+    </header>
+
+    <section id = "banner">
+        <div class="container column">
+            <div class="banner_headline">
+                <h1>Top notch experiences</h1>
+                <h2> MediCenter is a responsive template perfect for all screen size</h2>
+            </div>
+            <div class="banner_options">
+                <div class="banner1">
+                    <div class="banner_title"> Emergency case</div>
+                    <div class="banner_desc">Stay prepared for emergencies with a portable kit containing essential supplies for immediate medical assistance.</div>
+                    <a href="">Read more</a>
+
+                </div>
+                <div class="banner2">
+                    <div class="banner_title"> Doctors timetable</div>
+                    <div class="banner_desc">Efficiently manage doctors' schedules to provide timely healthcare services, minimizing waiting times for patients.</div>
+                    <a href="">Read more</a>
+                </div>
+                <div class="banner3">
+                    <div class="banner_title"> Opening hours</div>
+                    <div class="banner_desc">
+                        <div class="hour"> Monday - Friday</div>
+                        <div class="banner_options_bar"></div>
+                        <div class="hour"> Saturday</div>
+                        <div class="banner_options_bar"></div>
+                        <div class="hour"> Sunday</div>
+                        <div class="banner_options_bar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text"> Latest news </div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body flex">
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">18 jun 12</div>
+                                    <div class="news_coments">2</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="../../../assets/images/Doctors-pana.png" alt="thumbnail">
+                                </div>
+                                <div class="news_title"> 
+                                    Promising Treatment Emerges for Rare Disease
+                                </div>
+                                <div class="news resume">
+                                    Exciting breakthrough in early clinical trials unveils a potential game-changer for treating a rare disease, bringing hope to patients worldwide. This innovative therapy shows remarkable effectiveness, signaling a major advancement in medical research and patient care.
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">19 jun 12</div>
+                                    <div class="news_coments">5</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="../../../assets/images/Health professional team-pana.png" alt="thumbnail">
+                                </div>
+                                <div class="news_title"> 
+                                    New Study Reveals Potential Breakthrough in Cancer Treatment
+                                </div>
+                                <div class="news resume">
+                                    A recent study has unveiled a groundbreaking discovery in cancer treatment, offering a glimmer of hope for patients. Preliminary findings suggest a promising therapy that shows significant effectiveness in inhibiting tumor growth, potentially revolutionizing the fight against cancer and improving patient outcomes.
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">16 jun 12</div>
+                                    <div class="news_coments">3</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="../../../assets/images/Prevent epidemic rebound-pana.png" alt="thumbnail">
+                                </div>
+                                <div class="news_title"> 
+                                    New Variant Detected Raises Concerns Amidst COVID-19 Pandemic
+                                </div>
+                                <div class="news resume">
+                                    Public health authorities have identified a new variant of concern in the ongoing COVID-19 pandemic. Preliminary data suggests increased transmissibility and potential impact on vaccine efficacy, urging heightened vigilance, adherence to preventive measures, and continuous monitoring to mitigate the potential spread and implications of this emerging variant.
+                                </div>
+                            </a>
+                        </article>
+                        <article>
+                            <a href="">
+                                <div class="news_data">
+                                    <div class="news_posted_at">15 jun 12</div>
+                                    <div class="news_coments">4</div>
+                                </div>
+                                <div class="news_thumbnail">
+                                    <img src="../../../assets/images/Person with medical mask-pana.png" alt="thumbnail">
+                                </div>
+                                <div class="news_title"> 
+                                    Vaccination Milestone Reached as Global COVID-19 Immunization Efforts Continue
+                                </div>
+                                <div class="news resume">
+                                    The global fight against COVID-19 reaches a significant milestone as countries worldwide achieve remarkable progress in their vaccination campaigns. With millions of doses administered, the ongoing immunization efforts play a vital role in curbing the spread of the virus and bringing hope for a return to normalcy.
+                                </div>
+                            </a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <aside>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text"> Deparments </div>
+                        <div class="widget_title_bar"></div>
+                    </div>
+                    <div class="widget_body">
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                        <div class="box"></div>
+                    </div>
+                </div>
+                <div class="widget">
+                    <div class="widget_title">
+                        <div class="widget_title_text"> Make an appointment </div>
+                        <div class="widget_title_bar">
+                        </div>
+                    </div>
+                    <div class="widget_body">
+                        <div class="widget_options"><a href="">Contact us to schedule your appointment.</a></div>
+                        <div class="widget_options_bar"></div>
+                        <div class="widget_options"> <a href="">Book your appointment now for a convenient time.</a></div>
+                        <div class="widget_options_bar"></div>
+                        <div class="widget_options"> <a href="">Take the first step and arrange an appointment today</a></div>
+                        <div class="widget_options_bar"></div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+    <footer>
+        <div class="container flex_column">
+            <div class="footer_menu">
+                <div class="fm1">
+                    <a href=""></a>
+                </div>
+                <div class="fm2">
+                    <a href="">
+
+                    </a>
+                </div>
+                <div class="fm3">
+                    <a href=""></a>
+                </div>
+            </div>
+            <div class="footer_area">
+
+                <div class="footer_area_item">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text"> Medicenter clinic </div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer_area_item">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text"> Latest posts </div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer_area_item">
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text"> Latest tweets </div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copy">
+                Copyright - todos os direitos reservados
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
